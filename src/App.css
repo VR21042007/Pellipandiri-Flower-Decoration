@@ -17,7 +17,7 @@ a { color: inherit; }
 .primary-nav > a { color: inherit; font-size: 12px; text-decoration: none; transition: color .2s ease; }
 .primary-nav > a:hover { color: var(--gold-light); }
 .primary-nav .nav-whatsapp { display: inline-flex; min-height: 42px; align-items: center; gap: 9px; border: 1px solid rgba(255,255,255,.55); padding: 0 16px; }
-.nav-whatsapp svg { width: 15px; height: 15px; }
+.nav-whatsapp svg { width: 15px; height: 15px; color: #25D366; }
 .menu-toggle { display: none; border: 0; background: none; color: inherit; }
 .hero { position: relative; display: grid; min-height: 700px; grid-template-columns: minmax(0,1fr) minmax(300px,.84fr); align-items: center; gap: clamp(32px,7vw,105px); overflow: hidden; padding: 140px max(32px,calc((100vw - 1280px)/2)) 108px; background: var(--burgundy-dark); color: #fffaf1; }
 .hero::before { position: absolute; inset: 0; pointer-events: none; content: ""; background: radial-gradient(ellipse at 17% 72%,rgba(176,135,89,.16),transparent 39%),linear-gradient(112deg,rgba(59,23,34,.1),rgba(35,16,23,.22)); }
@@ -32,7 +32,7 @@ a { color: inherit; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
 .button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 11px; border: 1px solid transparent; padding: 0 20px; font-size: 11px; font-weight: 500; letter-spacing: .04em; text-decoration: none; transition: background .2s,color .2s,border-color .2s; cursor: pointer; }
 .button svg { width: 16px; height: 16px; flex: 0 0 auto; }
-.whatsapp-mark { width: 16px; height: 16px; flex: 0 0 auto; }
+.whatsapp-mark { width: 16px; height: 16px; flex: 0 0 auto; color: #25D366; }
 .button-light { background: var(--ivory); color: var(--burgundy); }
 .button-light:hover { background: white; }
 .button-outline { border-color: rgba(255,250,241,.48); color: #fffaf1; }

@@ -1,7 +1,7 @@
 export const business = {
   name: "Pellipandiri",
   fullName: "Pellipandiri Flower Decorations",
-  whatsapp: "",
+  whatsapp: "919493844422",
   addressLines: ["KPHB Phase 4, Kukatpally", "Hyderabad, Telangana"],
   mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pellipandiri+Flower+Decorations+Kukatpally",
 }
