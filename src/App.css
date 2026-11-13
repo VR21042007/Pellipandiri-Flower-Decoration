@@ -10,9 +10,9 @@ a { color: inherit; }
 .serif { font-family: var(--serif); font-weight: 500; letter-spacing: -.045em; }
 .site-header { position: absolute; z-index: 20; inset: 0 0 auto; display: flex; width: min(100% - 64px, 1280px); height: 90px; align-items: center; justify-content: space-between; margin: 0 auto; left: 50%; transform: translateX(-50%); border-bottom: 1px solid rgba(255,255,255,.2); color: #fffaf1; }
 .brand { display: flex; flex-direction: column; gap: 2px; text-decoration: none; }
-.brand-name { font: 500 30px/.92 var(--serif); letter-spacing: -.03em; }
+.brand-name { font: 500 38px/.92 var(--serif); letter-spacing: -.03em; }
 .brand-tag,.eyebrow,.section-label,.hero-bottom,.photo-caption,.footer-subtitle { font-size: 10px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; }
-.brand-tag { color: rgba(255,250,241,.7); font-size: 8px; }
+.brand-tag { color: rgba(255,250,241,.7); font-size: 9px; }
 .primary-nav { display: flex; align-items: center; gap: clamp(20px,3vw,44px); }
 .primary-nav > a { color: inherit; font-size: 12px; text-decoration: none; transition: color .2s ease; }
 .primary-nav > a:hover { color: var(--gold-light); }
@@ -152,7 +152,7 @@ a { color: inherit; }
 @media (max-width: 620px) {
   html { scroll-padding-top: 68px; }
   .site-header { width: calc(100% - 40px); height: 72px; }
-  .brand-name { font-size: 27px; }
+  .brand-name { font-size: 32px; }
   .menu-toggle { display: grid; width: 42px; height: 42px; place-items: center; color: inherit; }
   .primary-nav { position: absolute; top: 71px; right: -20px; left: -20px; display: none; align-items: stretch; flex-direction: column; gap: 0; background: var(--ivory); padding: 10px 20px 20px; color: var(--ink); box-shadow: 0 12px 20px #241c1a15; }
   .primary-nav.is-open { display: flex; }
